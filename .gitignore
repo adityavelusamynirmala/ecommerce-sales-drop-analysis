@@ -1,0 +1,15 @@
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary exports and local databases
+*.db
+*.sqlite
+*.sqlite3
+*.tmp
+*.log
+
+# Power BI autosave/temporary files
+*.pbix.autosave

@@ -1,0 +1,66 @@
+﻿product_id,product_name,category,list_price,unit_cost,supplier_id
+P0001,Wireless Earbuds,Electronics,3999.0,2115.83,SUP001
+P0002,Desk Lamp,Home,6999.0,3727.76,SUP012
+P0003,Running Shoes,Fashion,6999.0,5261.85,SUP007
+P0004,USB-C Charger,Accessories,6999.0,3895.99,SUP009
+P0005,Smart Watch,Electronics,699.0,440.05,SUP010
+P0006,Coffee Maker,Home,1599.0,1028.07,SUP002
+P0007,Backpack,Fashion,6999.0,5176.13,SUP017
+P0008,Phone Case,Accessories,3299.0,2242.7,SUP017
+P0009,Bluetooth Speaker,Electronics,3299.0,1914.73,SUP004
+P0010,Storage Rack,Home,1599.0,856.57,SUP009
+P0011,T-Shirt,Fashion,1599.0,1270.37,SUP017
+P0012,Laptop Sleeve,Accessories,1899.0,1060.37,SUP007
+P0013,Keyboard,Electronics,999.0,802.34,SUP004
+P0014,Air Purifier,Home,699.0,364.11,SUP010
+P0015,Hoodie,Fashion,1599.0,1303.62,SUP007
+P0016,Power Bank,Accessories,1299.0,1042.01,SUP011
+P0017,Mouse,Electronics,2499.0,1644.71,SUP003
+P0018,Bedsheet Set,Home,2499.0,1514.98,SUP001
+P0019,Wallet,Fashion,999.0,769.13,SUP014
+P0020,Screen Protector,Accessories,1599.0,937.65,SUP003
+P0021,Wireless Earbuds 21,Electronics,3999.0,3187.06,SUP017
+P0022,Desk Lamp 22,Home,499.0,282.56,SUP004
+P0023,Running Shoes 23,Fashion,6999.0,4548.43,SUP003
+P0024,USB-C Charger 24,Accessories,1299.0,678.37,SUP008
+P0025,Smart Watch 25,Electronics,1899.0,1306.37,SUP010
+P0026,Coffee Maker 26,Home,699.0,524.57,SUP005
+P0027,Backpack 27,Fashion,3999.0,2882.87,SUP017
+P0028,Phone Case 28,Accessories,6999.0,4620.28,SUP007
+P0029,Bluetooth Speaker 29,Electronics,2499.0,2040.3,SUP013
+P0030,Storage Rack 30,Home,3999.0,2863.66,SUP004
+P0031,T-Shirt 31,Fashion,1299.0,735.26,SUP002
+P0032,Laptop Sleeve 32,Accessories,1599.0,1301.34,SUP006
+P0033,Keyboard 33,Electronics,6999.0,5134.63,SUP004
+P0034,Air Purifier 34,Home,6999.0,5193.25,SUP005
+P0035,Hoodie 35,Fashion,1899.0,993.94,SUP016
+P0036,Power Bank 36,Accessories,999.0,639.94,SUP011
+P0037,Mouse 37,Electronics,6999.0,3861.58,SUP004
+P0038,Bedsheet Set 38,Home,499.0,322.37,SUP011
+P0039,Wallet 39,Fashion,3999.0,3169.33,SUP017
+P0040,Screen Protector 40,Accessories,4999.0,3331.8,SUP007
+P0041,Wireless Earbuds 41,Electronics,3999.0,2140.05,SUP016
+P0042,Desk Lamp 42,Home,3299.0,2397.8,SUP004
+P0043,Running Shoes 43,Fashion,3299.0,2673.53,SUP006
+P0044,USB-C Charger 44,Accessories,3999.0,3055.48,SUP009
+P0045,Smart Watch 45,Electronics,3299.0,2175.39,SUP017
+P0046,Coffee Maker 46,Home,4999.0,3360.33,SUP010
+P0047,Backpack 47,Fashion,1899.0,1280.54,SUP016
+P0048,Phone Case 48,Accessories,3999.0,2791.68,SUP007
+P0049,Bluetooth Speaker 49,Electronics,3999.0,2711.14,SUP004
+P0050,Storage Rack 50,Home,999.0,604.3,SUP008
+P0051,T-Shirt 51,Fashion,699.0,390.81,SUP014
+P0052,Laptop Sleeve 52,Accessories,6999.0,4582.64,SUP013
+P0053,Keyboard 53,Electronics,2499.0,1497.02,SUP003
+P0054,Air Purifier 54,Home,999.0,705.89,SUP013
+P0055,Hoodie 55,Fashion,1299.0,761.89,SUP003
+P0056,Power Bank 56,Accessories,499.0,364.01,SUP012
+P0057,Mouse 57,Electronics,699.0,480.9,SUP006
+P0058,Bedsheet Set 58,Home,1899.0,1319.49,SUP014
+P0059,Wallet 59,Fashion,1899.0,1378.15,SUP011
+P0060,Screen Protector 60,Accessories,3999.0,2837.44,SUP005
+P0061,Wireless Earbuds 61,Electronics,3999.0,2482.15,SUP006
+P0062,Desk Lamp 62,Home,1599.0,1116.12,SUP003
+P0063,Running Shoes 63,Fashion,999.0,815.68,SUP011
+P0064,USB-C Charger 64,Accessories,1899.0,1041.3,SUP004
+P0065,Smart Watch 65,Electronics,3299.0,1810.37,SUP002

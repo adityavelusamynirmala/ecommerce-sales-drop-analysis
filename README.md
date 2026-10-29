@@ -43,11 +43,11 @@ These findings identify areas for further investigation; they do not establish t
 
 ### Executive Overview
 
-Add the `executive_overview.png` screenshot here.
+This dashboard presents the main business KPIs and monthly revenue and order trends.
 
 ### Revenue Driver Analysis
 
-Add the `revenue_driver_analysis.png` screenshot here.
+This dashboard compares monthly revenue across sales channels, product categories, and customer regions.
 
 ## Recommendations for Further Investigation
 

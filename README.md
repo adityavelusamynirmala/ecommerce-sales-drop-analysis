@@ -1,3 +1,5 @@
+# Ecommerce Sales Drop Analysis
+
 ## Project Overview
 
 This project investigates a decline in e-commerce revenue using a synthetic dataset. The objective is to quantify the decline, examine changes in order volume, and identify the sales channels and product categories that warrant further investigation.

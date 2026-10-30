@@ -1,8 +1,8 @@
-# E-Commerce Sales Drop Analysis
+# Customer Churn Analysis
 
 ## Project Overview
 
-This project investigates a decline in e-commerce revenue using a synthetic dataset. The objective is to quantify the decline, examine changes in order volume, and identify the sales channels and product categories that warrant further investigation.
+This project investigates customer churn for a subscription-based business using a synthetic customer dataset. The objective is to measure the overall churn rate, identify customer segments with higher churn, and highlight areas where retention strategies may need further investigation.
 
 The analysis uses SQL for data analysis and Power BI for interactive dashboards.
 
@@ -10,78 +10,92 @@ The analysis uses SQL for data analysis and Power BI for interactive dashboards.
 
 ## Business Problem
 
-Revenue declined in the most recent month of the dataset. The objective is to understand the scale of the decline and investigate which sales channels and product categories experienced the largest changes.
+A subscription-based business wants to understand why customers are leaving its service. The objective is to measure customer churn, compare churn across different customer segments, and identify behavioural and service-related patterns associated with customer churn.
 
 ## Tools Used
 
-* **SQL (SQLite):** Aggregation, filtering, joins, and period-over-period comparisons.
-* **Power BI:** KPI cards, monthly trend analysis, category comparisons, channel comparisons, and interactive filters.
+* **SQL (SQLite):** Aggregation, filtering, segmentation, and churn analysis.
+* **Power BI:** KPI cards, churn comparisons, customer segmentation, and interactive filters.
 * **Excel:** Data inspection and validation.
 
 ## Key Findings
 
-Comparing August 2026 with September 2026:
+Analysis of the customer dataset revealed the following patterns:
 
-* Total revenue decreased from ₹70,46,322.60 to ₹61,69,741.85, a decline of approximately **12.44%**.
-* Distinct order count decreased from 2,069 to 1,768, a decline of approximately **14.55%**.
-* Mobile App revenue declined by approximately **18.89%**, the largest percentage decline among the three sales channels.
-* Fashion revenue declined by approximately **18.34%**, the largest percentage decline among the four product categories.
+* Overall customer churn rate was approximately **16.91%**.
+* Customers on the Basic subscription plan had the highest churn rate at approximately **22.8%**.
+* Premium plan customers had the lowest churn rate at approximately **8.8%**.
+* Customers with 0–4 monthly logins had a churn rate of approximately **31.1%**.
+* Customers with 20 or more monthly logins had a churn rate of approximately **9.2%**.
+* Newer customers showed higher churn compared with customers who had longer tenure.
+* Churn patterns also varied across satisfaction scores, support ticket volumes, and late payment behaviour.
 
-These findings identify areas for further investigation; they do not establish the underlying causes of the decline.
+These findings highlight customer segments associated with higher churn. They do not establish the underlying causes of customer departures.
 
 ## Analysis Approach
 
-1. Inspected the dataset and reviewed its tables and columns.
-2. Used SQL to calculate monthly revenue and distinct order counts.
-3. Compared August and September 2026 performance.
-4. Compared revenue by sales channel.
-5. Compared revenue by product category.
-6. Built interactive Power BI dashboards to explore revenue trends and potential drivers.
-7. Cross-checked monthly and segment-level results between SQL and Power BI.
+1. Inspected the customer dataset and reviewed its columns and structure.
+2. Used SQL to calculate total customers, churned customers, active customers, and overall churn rate.
+3. Compared churn rates across subscription plans and acquisition channels.
+4. Examined churn patterns based on customer tenure and monthly login frequency.
+5. Investigated relationships between churn, satisfaction scores, support tickets, and late payments.
+6. Built interactive Power BI dashboards to present the overall churn situation and explore potential churn drivers.
+7. Validated key metrics and findings against the dashboard.
 
 ## Dashboard
 
 ### Executive Overview
 
-This dashboard presents the main business KPIs and monthly revenue and order trends.
+This dashboard presents the main customer KPIs, including total customers, churned customers, active customers, and overall churn rate.
 
-### Revenue Driver Analysis
+It also compares churn rates across subscription plans and acquisition channels, with interactive filters for customer segmentation.
 
-This dashboard compares monthly revenue across sales channels, product categories, and customer regions.
+### Churn Driver Analysis
+
+This dashboard investigates customer churn across different behavioural and service-related dimensions, including:
+
+* Customer tenure
+* Monthly login frequency
+* Satisfaction scores
+* Support ticket volume
+* Late payment behaviour
+
+The objective is to identify customer segments with higher churn rates and highlight opportunities for further investigation.
 
 ## Recommendations for Further Investigation
 
-1. Investigate the decline in Mobile App revenue by examining app conversion, checkout completion, and order volume.
-2. Investigate Fashion performance through product-level sales, pricing, discounts, and availability.
-3. Examine changes in average order value to understand whether customer spending per order changed.
-4. Compare customer acquisition and repeat-purchase behaviour across channels.
-5. Investigate missing or unmatched customer-region information before using regional comparisons for business decisions.
+1. Investigate the high churn rate among Basic plan customers by examining pricing, subscription benefits, and plan-related customer feedback.
+2. Examine engagement patterns among customers with low monthly login frequency and investigate opportunities to improve product engagement.
+3. Review the onboarding experience for newer customers to identify potential early-stage retention issues.
+4. Investigate whether frequent support tickets are associated with unresolved customer problems or service dissatisfaction.
+5. Examine late payment patterns and evaluate whether payment difficulties contribute to customer departures.
+6. Review customer satisfaction feedback to identify recurring issues among customers with lower satisfaction scores.
 
 These are proposed investigation steps, not confirmed causes.
 
 ## Limitations
 
-* The dataset is synthetic and may not reflect real-world business conditions.
-* The comparison focuses on August and September 2026; additional historical context is needed to assess seasonality and longer-term trends.
-* Revenue trends alone cannot establish causation.
-* Records with missing order dates require separate treatment in time-based analysis.
-* The blank regional category was excluded from the regional visual; the underlying data-quality issue requires further investigation.
+* The dataset is synthetic and may not reflect real-world customer behaviour.
+* Most signup date values are missing, limiting reliable time-based signup and churn trend analysis.
+* Churn comparisons identify associations between customer characteristics and churn but cannot establish causation.
+* Customer behaviour and subscription patterns may differ in real business environments.
+* The analysis is limited to the variables available in the supplied dataset.
 
 ## Project Structure
 
 ```text
-ecommerce-sales-drop-analysis/
+customer-churn-analysis/
 ├── data/
-│   ├── raw/
-│   └── processed/
+│   └── customers_raw.csv
 ├── sql/
+│   └── customer_churn_analysis.sql
 ├── docs/
 │   └── dashboard-screenshots/
 ├── powerbi/
-│   └── ecommerce_sales_drop_analysis.pbix
+│   └── customer_churn_analysis.pbix
 └── README.md
 ```
 
 ## Skills Demonstrated
 
-SQL analysis, business problem framing, KPI analysis, revenue trend analysis, segment comparisons, data validation, Power BI dashboard development, and evidence-based recommendations.
+SQL analysis, customer churn analysis, KPI development, customer segmentation, behavioural analysis, retention analysis, data validation, Power BI dashboard development, and evidence-based business recommendations.

@@ -39,15 +39,15 @@ These findings identify areas for further investigation; they do not establish t
 6. Built interactive Power BI dashboards to explore revenue trends and potential drivers.
 7. Cross-checked monthly and segment-level results between SQL and Power BI.
 
-## Dashboard
 
-### Executive Overview
+## Dashboard Preview
 
-This dashboard presents the main business KPIs and monthly revenue and order trends.
+### 1. Executive Overview
+![Executive Overview](docs/dashboard-screenshots/executive_overview.png)
 
-### Revenue Driver Analysis
+### 2. Revenue Driver Analysis
+![Revenue Driver Analysis](docs/dashboard-screenshots/revenue_driver_analysis.png)
 
-This dashboard compares monthly revenue across sales channels, product categories, and customer regions.
 
 ## Recommendations for Further Investigation
 
